@@ -6,9 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"html:target/default-cucumber-reports",
-                "json:target/cucumber.json",
-                "rerun:target/rerun.txt"
+        plugin = {"json:target/cucumber.json",
+                  "html:target/default-cucumber-reports",
+                  "rerun:target/rerun.txt"
         },
 
         features = "src/test/resources/com/vytrack/features",
