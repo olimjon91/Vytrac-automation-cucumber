@@ -10,10 +10,10 @@ Feature: Log in
     Then Verify that page name is "<page_name>"
 
     Examples:
-      | user         | page_name       | tt
-      | driver       | Quick Launchpad | sd
-      | salesmanager | Dashboard       | dfd
-      | storemanager | Dashboard       | df
+      | user         | page_name       |
+      | driver       | Quick Launchpad |
+      | salesmanager | Dashboard       |
+      | storemanager | Dashboard       |
 
   Scenario: Log in with invalid credentials
     Given Try to login with invalid credentials
