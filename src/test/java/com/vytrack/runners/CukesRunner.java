@@ -12,8 +12,8 @@ import org.junit.runner.RunWith;
         },
 
         features = "src/test/resources/com/vytrack/features",
-        glue = "com/vytrack/step_defenitions"
- //     tags = {"@login"}
+        glue = "com/vytrack/step_defenitions",
+      tags = {"@login"}
 //        dryRun = false
 
 )
